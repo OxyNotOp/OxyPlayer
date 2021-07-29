@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
 RUN pip3 install -U pip
 RUN cd /
-RUN git clone https://github.com/subinps/MusicPlayer.git
+RUN git clone https://github.com/sut
 RUN cd OxyPlayer
 WORKDIR /OxyPlayer
 RUN pip3 install -U -r requirements.txt
